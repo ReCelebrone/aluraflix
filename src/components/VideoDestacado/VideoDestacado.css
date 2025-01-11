@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.destacado {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.descricao-destacado-video {
+  max-width: 60%;
+}
+
+.categoria {
+  background-color: #6BD1FF;
+  width: 40%;
+  font-family: "Roboto", serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 15px;
+}
+
+.titulo-video {
+  color: #F5F5F5;
+  font-size: 46px;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.descricao-video {
+  color: #F5F5F5;
+  font-size: 18px;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+.video-destacado {
+  flex: 1;
+  max-width: 40%;
+  padding-left: 20px;
+  margin-top: 80px;
+}
+
+.video-imagem {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: solid #6BD1FF;
+  box-shadow: 0 0 20px rgba(107, 209, 255, 1);
+}

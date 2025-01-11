@@ -1,0 +1,16 @@
+.container-banner {
+    background-image: url('/public/img/banner-home.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    box-shadow: inset #2271D1;
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}

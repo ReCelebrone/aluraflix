@@ -1,0 +1,22 @@
+.footer {
+    background-color: #000000;
+    border-top: 4px solid #2271D1;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 10%;
+    margin-bottom: 8px; 
+}
+
+.footer-dominio {
+    font-size: 16px;
+    color: #ffffff;
+    opacity: 0.4;
+}

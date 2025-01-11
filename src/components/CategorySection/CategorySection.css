@@ -1,0 +1,73 @@
+.secao-categoria {
+    padding: 20px;
+}
+
+.titulo-categoria {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.cartoes-videos {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Permite rolar horizontalmente */
+}
+
+/* Estilos para cada categoria */
+.secao-categoria.frontend {
+    background-color: #000000;
+}
+
+.secao-categoria.backend {
+    background-color: #000000;
+}
+
+.secao-categoria.mobile {
+    background-color: #000000;
+}
+
+.titulo-categoria.frontend {
+    background-color: #6BD1FF;
+    width: 33%;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 15px;
+    font-family: "Roboto", serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-categoria.backend {
+    background-color: #00C86F;
+    width: 33%;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 15px;
+    font-family: "Roboto", serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.titulo-categoria.mobile {
+    background-color: #FFBA05;
+    width: 33%;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 15px;
+    font-family: "Roboto", serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
